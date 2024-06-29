@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\SUBRU\Downloads\bike-sharing-demand\test.csv")
+df = pd.read_csv(r"test.csv")
 
 st.title ("Bike Sharing Demand")
 st.subheader ("Raw Data")
